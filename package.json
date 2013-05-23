@@ -1,0 +1,32 @@
+{
+	"name": "vtexpeed",
+	"version": "0.0.1",
+	"readmeFilename": "README.md",
+	"description": "A grunt coffee/less/connect/remote boilerplate for Vtex E-commerces.",
+	"dependencies": {
+		"grunt": "~0.4.1",
+		"grunt-contrib-concat": "~0.3.0",
+		"grunt-contrib-uglify": "~0.2.0",
+		"grunt-contrib-cssmin": "~0.6.0",
+		"grunt-contrib-clean": "~0.4.0",
+		"grunt-contrib-coffee": "~0.6.4",
+		"grunt-contrib-connect": "~0.2.0",
+		"grunt-contrib-copy": "~0.4.1",
+		"grunt-contrib-less": "~0.5.0",
+		"grunt-contrib-watch": "~0.4.0",
+		"coffee-script": "~1.6.2",
+		"remote": "~0.2.2"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git://github.com/augustocb/vtexpeed.git"
+	},
+	"keywords": [
+		"grunt",
+		"coffee",
+		"less",
+		"livereload"
+	],
+	"author": "Augusto Barbosa <augustocbarbosa@gmail.com>",
+	"license": "MIT"
+}

@@ -1,0 +1,24 @@
+{
+	"remote": {
+		"host": "sitename.vtexcommerce.com.br",
+		"port": 80
+	},
+	"proxy": {
+		"host": "sitename.vtexlocal.com.br",
+		"port": 80
+	},
+	"server": {
+		"host": "localhost",
+		"port": 9001
+	},
+	"mapping": true,
+	"mappings": {
+		"/arquivos/.*.min.css.*": "build/style/min",
+		"/arquivos/.*.css.*": "build/style",
+		"/arquivos(?!.*/js)/.*.min.js.*": "build/js/min",
+		"/arquivos(?!.*/js)/.*.js": "build/js",
+		"/arquivos(?!.*/ids)/.*.jpg": "build/image",
+		"/arquivos(?!.*/ids)/.*.png": "build/image",
+		"/arquivos(?!.*/ids)/.*.gif": "build/image"
+	}
+}
