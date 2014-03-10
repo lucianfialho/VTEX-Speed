@@ -31,7 +31,7 @@ Os arquivos compilados podem ser encontrados na pasta `/build`.
 - gera um `.min.js` de cada `.js`
 - gera um `all.min.js` com todos os `.min.js`
 
-### Estrutura de pastas
+## Estrutura de pastas
 
 - `src`
     - `coffee` - arquivos CoffeeScript
@@ -42,7 +42,7 @@ Os arquivos compilados podem ser encontrados na pasta `/build`.
 - `remote.json` - arquivo de configuração do [Remote](https://github.com/gadr90/remote)
 - `build` - pasta criada quando um build é feito
 
-### Agradecimento
+## Agradecimento
 
 VTEX Speed foi inspirado no [Speedbag](https://github.com/vtex/speedbag). Obrigado ao [Guilherme Rodrigues](https://github.com/gadr90), pai do Speedbag.
 
