@@ -1,23 +1,27 @@
-# Vtex Speed
+# VTEX Speed
 
-O Vtex Speed é um boilerplate do grunt para E-commerces Vtex.
+O VTEX Speed é um boilerplate do Grunt para E-commerces VTEX.
 
-Requer [node](http://nodejs.org/) e [grunt](http://gruntjs.com/) (`npm i -g grunt-cli`).
+Requer [Node](http://nodejs.org/) e [Grunt](http://gruntjs.com/) (`npm i -g grunt-cli`).
 
-### Como configurar
+## Configure
 
-No arquivo `remote.json` configure os valores de `remote.host` e `proxy.host` para sua loja.
+### Insira os dados da sua loja
 
-### Como iniciar
+No arquivo `remote.json` mude o texto `sitename` para o nome da sua loja nas chaves `remote.host` e `proxy.host`.
 
+### Instale as dependências do npm
     npm i
+
+## Inicie o VTEX Speed
+
     (sudo) grunt
 
-Divirta-se! :)
+## Divirta-se! :)
 
 Os arquivos compilados podem ser encontrados na pasta `/build`.
 
-### Funcionalidades
+## Funcionalidades
 
 - exibe arquivos de `.css` `.js` `.jpg` `.png` e `.gif` do servidor local
 - gera arquivos de `.css` a partir de arquivos `.less`
@@ -33,13 +37,13 @@ Os arquivos compilados podem ser encontrados na pasta `/build`.
     - `coffee` - arquivos CoffeeScript
     - `image` - arquivo de imagem
     - `js` - arquivos de javascript files
-	- `style` - arquivos de CSS e LESS
-- `Gruntfile.coffee` - arquivo de configuração do grunt. contém todas as tarefas de build do grunt
+    - `style` - arquivos de CSS e LESS
+- `Gruntfile.coffee` - arquivo de configuração do grunt. Contém todas as tarefas de build do grunt
 - `remote.json` - arquivo de configuração do [Remote](https://github.com/gadr90/remote)
 - `build` - pasta criada quando um build é feito
 
 ### Agradecimento
 
-Vtex Speed foi inspirado no [Speedbag](https://github.com/vtex/speedbag). Obrigado ao [Guilherme Rodrigues](https://github.com/gadr90), o pai do Speedbag.
+VTEX Speed foi inspirado no [Speedbag](https://github.com/vtex/speedbag). Obrigado ao [Guilherme Rodrigues](https://github.com/gadr90), pai do Speedbag.
 
 ------
